@@ -1,0 +1,21 @@
+.cerchio{
+  width: 10px;
+  height:10px;
+  border-radius:50%;
+  background-color: blue;
+}
+li{
+  margin-bottom: 10px;
+  display:flex;
+  align-items: center;
+}
+li > p{
+  margin-bottom: 0;
+}
+.verde
+{
+background-color: green;
+}
+.rosso{
+  background-color: brown;
+}
