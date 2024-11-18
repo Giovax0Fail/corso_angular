@@ -1,8 +1,9 @@
 .cerchio{
-  width: 10px;
-  height:10px;
+  width: 30px;
+  height:30px;
   border-radius:50%;
   background-color: blue;
+  text-align: center;
 }
 li{
   margin-bottom: 10px;
@@ -12,10 +13,12 @@ li{
 li > p{
   margin-bottom: 0;
 }
-.verde
+.cerchioOnline
 {
 background-color: green;
+color:white;
 }
-.rosso{
+.cerchioOffline{
   background-color: brown;
+  color:orange;
 }

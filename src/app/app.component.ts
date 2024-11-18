@@ -15,13 +15,13 @@ export class AppComponent {
   }
 
  persone = [
-    { nome: 'Davide', cognome: 'Cangiano', isOnline: true },
-    { nome: 'Leonardo', cognome: 'Firenze', isOnline: false },
-    { nome: 'Christian', cognome: 'Damiano', isOnline: true },
-    { nome: 'Marco', cognome: 'Scognamiglio', isOnline: false },
-    { nome: 'Pasquale', cognome: 'De Micco', isOnline: true },
-    { nome: 'Gabriele', cognome: 'Intoccia', isOnline: false },
-    { nome: 'Alessandro', cognome: 'Allegro', isOnline: true }
+  { nome: 'Davide', cognome: 'Cangiano', isOnline: true, color: 'Red' },
+  { nome: 'Leonardo', cognome: 'Firenze', isOnline: false, color: 'Blue' },
+  { nome: 'Christian', cognome: 'Damiano', isOnline: true, color: 'Green' },
+  { nome: 'Marco', cognome: 'Scognamiglio', isOnline: false, color: 'Yellow' },
+  { nome: 'Pasquale', cognome: 'De Micco', isOnline: true, color: 'Purple' },
+  { nome: 'Gabriele', cognome: 'Intoccia', isOnline: false, color: 'Pink' },
+  { nome: 'Alessandro', cognome: 'Allegro', isOnline: true, color: 'Orange' }
   ];
 
  onclick(event:Event)
